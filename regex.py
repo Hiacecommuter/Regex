@@ -64,6 +64,7 @@ The lookahead only asserts whether a match is possible or not
 (?<=regex_2)regex_1
 The positive lookbehind (?<=) asserts regex_1 to be immediately preceded by regex_2. 
 Lookbehind is excluded from the match (do not consume matches of regex_2), but only assert whether a match is possible or not.
+regex_2 needs to be fixed length
 
 regex_1(?!regex_2)
 The negative lookahead (?!) asserts regex_1 not to be immediately followed by regex_2. 
