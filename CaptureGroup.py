@@ -20,7 +20,7 @@ pattern16_33 = r"()\w\w" # ['', '', '']
 pattern16_34 = r"(\w\w)" # ['ab', 'cd', 'ef']
 pattern16_35 = r"(\w)(\w)" # [('a', 'b'), ('c', 'd'), ('e', 'f')]
 
-# (?:), non-capturing group
+# (?:), non-capturing group (no need for capturing the match)
 pattern16_36 = r"(?:\w)\w" # ['ab', 'cd', 'ef']
 pattern16_37 = r"\w(?:\w)" # ['ab', 'cd', 'ef']
 pattern16_38 = r"(?:)\w\w" # ['ab', 'cd', 'ef']
@@ -31,3 +31,4 @@ pattern16_311 = r"(\w)(?:\w)" #  ['a', 'c', 'e']
 #17 |, alternations 
 #   (Bob|Kevin|Stuart) will match either Bob or Kevin or Stuart.
 #   ([a-f]|[A-F]) will match one of the class
+
