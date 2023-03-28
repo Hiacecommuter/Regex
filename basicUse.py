@@ -1,3 +1,6 @@
+r"" # no need to use escape for \
+"" # need to use escape for \
+
 #1 basic string matching
 pattern1 = r"wikipedia"
 
